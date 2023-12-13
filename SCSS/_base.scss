@@ -1,0 +1,36 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    animation-name: changeCol;
+    animation-iteration-count: infinite;
+    animation-delay: 0.1ms;
+    animation-duration: 10s;
+    position: relative;
+   
+
+    @keyframes changeCol{
+        0% {
+          
+           
+            background: linear-gradient(to bottom, #32373a, #3b5874, #2c0e0b);
+        }
+
+        50% {
+            background: linear-gradient(to bottom,#64231c, #314049, #0f4425 );
+        }
+
+        75% {
+            background: linear-gradient(to bottom, #0b202e,  #521c16,#0e3d21);
+        }
+
+        100% {
+           background: linear-gradient(to bottom, #19703d, #521b15 ,#1e557a);
+        }
+
+    }
+}
